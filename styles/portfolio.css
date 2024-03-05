@@ -187,16 +187,20 @@ input{
 
 
 @media screen and (max-width: 576px){
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+    }
   nav, .banner, .skils-container,.resume-content,.about-info-container, .contact{
     flex-direction: column;
-    /* padding: 10px 10px; */
+    padding: 10px 10px;
     gap: 20px;
   } 
   .about{
-    /* padding: 20px; */
+    padding: 20px;
   }
   .contact{
-    /* padding: 20px; */
+    padding: 20px;
   }
 .contact input[type='text'], input[type='email'], textarea{
 padding: 0 0 0 5px;
@@ -211,6 +215,7 @@ padding: 0 0 0 5px;
     height: 50px;
     width: 100px;
 }
+
 }
 @media screen and (min-width: 577px) and (max-width: 992px){
     .contact, .about{
