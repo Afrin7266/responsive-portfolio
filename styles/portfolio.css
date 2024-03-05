@@ -203,6 +203,13 @@ padding: 0 0 0 5px;
 }
 .btn-primary{
     margin-bottom: 10px;
+    height: 64px;
+    width: 200px;
+    padding: 0px 0px;
+}
+#hire{
+    height: 50px;
+    width: 100px;
 }
 }
 @media screen and (min-width: 577px) and (max-width: 992px){
