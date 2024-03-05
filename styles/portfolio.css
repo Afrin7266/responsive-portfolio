@@ -187,6 +187,12 @@ input{
 
 
 @media screen and (max-width: 576px){
+    .header{
+        background-image: none;
+    }
+    .banner{
+        margin: 0px;
+    }
     nav ul{
         flex-direction: column;
         gap: 20px;
